@@ -11,18 +11,19 @@ The framework of the PSCFA method for MFTP prediction is described as follows:
 ![](./figures/framework.jpg)
 ##  Related Files  
 ###   AMCL 
-| FILE NAME       | DESCRIPTION                                                     |
-|-----------------|-----------------------------------------------------------------|
-| `pep_main.py`   | stores configuration and parameter settings for the AMCL model. |
-| `train.py`      | train model                                                     |
-| `train_test.py` | the main file of AMCL predictor                                 |
-| `DA.py`         | data augmentation                                               |
-| `estimate.py`   | evaluation metrics                                              |
-| `models`        | model construction                                              |
-| `losses.py`     | loss functions used to train models                             |
-| `dataset`       | data                                                            |
-| `result`        | results preserved during training.                              |
-| `saved_models`  | models preserved during training.                               |
+| FILE NAME       | DESCRIPTION                                                    |
+|-----------------|----------------------------------------------------------------|
+| `pep_main.py`   | stores configuration and parameter settings for the AMCL model |
+| `train.py`      | train model                                                    |
+| `train_test.py` | the main file of AMCL predictor                                |
+| `DA.py`         | data augmentation                                              |
+| `estimate.py`   | evaluation metrics                                             |
+| `models`        | model construction                                             |
+| `losses.py`     | loss functions used to train models                            |
+| `dataset`       | data                                                           |
+| `result`        | results preserved during training                              |
+| `saved_models`  | models preserved during training                               |
+| `t-SNE.py`      | t-sne visualization                                            |
 
 
 ## Installation
